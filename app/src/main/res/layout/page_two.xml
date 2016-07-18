@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".PageOne"
+    tools:context=".PageTwo"
     android:orientation="vertical">
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:text="MUHEHE1"
+        android:text="MUHEHE2"
         android:textSize="75dp" />
 </LinearLayout>
