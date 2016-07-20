@@ -4,11 +4,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PageFive">
+    tools:context=".PageOne">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:src="@drawable/img5" />
 
     <TextView
+        android:id="@+id/muhehe1"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:text="MUHEHE5"
-        android:textSize="75dp" />
+        android:layout_height="match_parent"
+        android:layout_weight="10"
+        android:text="Love ya 5"
+        android:textSize="25dp" />
 </LinearLayout>
