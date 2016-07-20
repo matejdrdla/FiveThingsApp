@@ -1,15 +1,22 @@
 package cz.drdla.matej.fivethingsapp;
 
-        import android.support.v4.app.Fragment;
-        import android.os.Bundle;
-        import android.view.LayoutInflater;
-        import android.view.View;
-        import android.view.ViewGroup;
-        import android.widget.TextView;
+import android.support.v4.app.Fragment;
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.TextView;
 
 
 public class PageFragment extends Fragment {
     private static final String ARG_PAGE_NUMBER = "page_number";
+    private int[] pages = {
+            R.layout.page_one,
+            R.layout.page_two,
+            R.layout.page_three,
+            R.layout.page_four,
+            R.layout.page_five,
+    };
 
     public PageFragment() {
     }
@@ -25,12 +32,8 @@ public class PageFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View rootView = inflater.inflate(R.layout.fragment_page_layout, container, false);
-
-        TextView txt = (TextView) rootView.findViewById(R.id.page_number_label);
         int page = getArguments().getInt(ARG_PAGE_NUMBER, -1);
-        txt.setText(String.format("Page %d", page));
-
+        View rootView = inflater.inflate(pages[page - 1], container, false);
         return rootView;
     }
 }

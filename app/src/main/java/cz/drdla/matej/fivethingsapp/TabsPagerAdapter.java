@@ -1,11 +1,18 @@
 package cz.drdla.matej.fivethingsapp;
 
-        import android.support.v4.app.Fragment;
-        import android.support.v4.app.FragmentManager;
-        import android.support.v4.app.FragmentPagerAdapter;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentPagerAdapter;
 
 
 public class TabsPagerAdapter extends FragmentPagerAdapter {
+    private String[] title = {
+            "M",
+            "A",
+            "T",
+            "E",
+            "J"
+    };
 
     public TabsPagerAdapter(FragmentManager fm) {
         super(fm);
@@ -18,11 +25,11 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 3;
+        return 5;
     }
 
     @Override
     public CharSequence getPageTitle(int position) {
-        return "TAB " + (position + 1);
+        return title[position];
     }
 }
