@@ -7,11 +7,12 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class TabsPagerAdapter extends FragmentPagerAdapter {
     private String[] title = {
-            "M",
-            "A",
-            "T",
+            "I",
+            "L",
+            "O",
+            "V",
             "E",
-            "J"
+            "U"
     };
 
     public TabsPagerAdapter(FragmentManager fm) {
@@ -25,7 +26,7 @@ public class TabsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public int getCount() {
-        return 5;
+        return 6;
     }
 
     @Override

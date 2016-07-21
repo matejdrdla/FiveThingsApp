@@ -4,17 +4,17 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical"
-    tools:context=".PageFive">
+    tools:context=".PageSix">
 
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:src="@drawable/img5" />
+        android:src="@drawable/img6" />
 
     <TextView
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:text="@string/string5"
+        android:text="@string/string6"
         android:textSize="25dp"
         android:textStyle="italic"
         android:textAlignment="center"

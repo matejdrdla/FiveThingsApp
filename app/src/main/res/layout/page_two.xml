@@ -1,28 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".PageTwo">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
+    <ImageView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:orientation="vertical"
-        tools:context=".PageOne">
+        android:src="@drawable/img2" />
 
-        <ImageView
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:src="@drawable/img2" />
-
-        <TextView
-            android:id="@+id/muhehe1"
-            android:layout_width="fill_parent"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="Love ya 2"
-            android:textSize="25dp" />
-    </LinearLayout>
-</ScrollView>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/string2"
+        android:textStyle="italic"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="25px"
+        android:textColor="@android:color/white"/>
+</RelativeLayout>

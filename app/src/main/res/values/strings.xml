@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Káťa &amp; Máťa</string>
+    <string name="string1">Od maturity ...</string>
+    <string name="string2">... pres tabory, ...</string>
+    <string name="string3">... behy, ...</string>
+    <string name="string4">... vejsku, ...</string>
+    <string name="string5">... evropu, ...</string>
+    <string name="string6">... az do sveta :)</string>
 </resources>

@@ -16,6 +16,7 @@ public class PageFragment extends Fragment {
             R.layout.page_three,
             R.layout.page_four,
             R.layout.page_five,
+            R.layout.page_six,
     };
 
     public PageFragment() {
