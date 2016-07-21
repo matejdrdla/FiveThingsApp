@@ -12,13 +12,13 @@
         android:src="@drawable/img2" />
 
     <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/string2"
-        android:textStyle="italic"
-        android:textSize="25dp"
-        android:textAlignment="center"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="25px"
-        android:textColor="@android:color/white"/>
+        android:id="@+id/year"
+        style="@style/TxtViewYear"
+        android:text="@string/year2" />
+
+    <TextView
+        android:id="@+id/desc"
+        style="@style/TxtViewDesc"
+        android:text="@string/desc2" />
+
 </RelativeLayout>
