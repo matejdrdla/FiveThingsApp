@@ -15,11 +15,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".PageOne"></activity>
-        <activity android:name=".PageTwo"></activity>
-        <activity android:name=".PageThree"></activity>
-        <activity android:name=".PageFour"></activity>
-        <activity android:name=".PageFive"></activity>
     </application>
 
 </manifest>

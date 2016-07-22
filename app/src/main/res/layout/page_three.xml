@@ -9,7 +9,7 @@
     <ImageView
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:src="@drawable/img4" />
+        android:src="@drawable/img2013" />
 
     <TextView
         android:id="@+id/year"
@@ -17,7 +17,7 @@
         style="@style/TxtViewYear" />
     <TextView
         android:id="@+id/desc"
-        android:text="@string/desc4"
+        android:text="@string/desc3"
         style="@style/TxtViewDesc"/>
 
 </RelativeLayout>

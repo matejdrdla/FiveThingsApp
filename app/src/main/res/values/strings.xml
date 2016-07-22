@@ -1,15 +1,20 @@
 <resources>
     <string name="app_name">Káťa &amp; Máťa</string>
-    <string name="desc1">Od maturity ...</string>
-    <string name="year1">[2011]</string>
-    <string name="desc2">... pres tabory ...</string>
-    <string name="year2">[2012]</string>
-    <string name="desc3">... behy ...</string>
-    <string name="year3">[2013]</string>
-    <string name="desc4">... vejsku ...</string>
-    <string name="year4">[2014]</string>
-    <string name="desc5">... evropu ...</string>
-    <string name="year5">[2015]</string>
-    <string name="desc6">... az do sveta :)</string>
-    <string name="year6">[2016]</string>
+    <string name="desc1">Od elektrotechny ...</string>
+    <string name="year1">[AFI palace, 2011]</string>
+
+    <string name="desc2">... přes výlety po ČR ...</string>
+    <string name="year2">[Broumovsko, 2012]</string>
+
+    <string name="desc3">... studia na VŠ ...</string>
+    <string name="year3">[UHK, 2013]</string>
+
+    <string name="desc4">... běh ...</string> <!-- nedej tam beh-->
+    <string name="year4">[Pardubický půlmaraton, 2014]</string>
+
+    <string name="desc5">... běh ...</string>
+    <string name="year5">[Český ráj, 2015]</string> <!--2013-->
+
+    <string name="desc6">... až do světa :o)</string>
+    <string name="year6">[Victoria peak, 2016]</string>
 </resources>
